@@ -1,0 +1,75 @@
+.calci{
+    margin: auto;
+    margin-top:10%;
+    height:400px;
+    width:400px;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#num1{
+    height:20px;
+    width:150px;
+    margin-left:6%;
+}
+#add,#sub{
+    height:100px;
+    width:150px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+#re{
+    height:100px;
+    width:150px;
+    border-radius: 25px;
+}
+#mul,#div{
+    height:100px;
+    width:150px;
+    border-radius: 25px;
+}
+#add,#mul{
+    margin-right: 10px;
+}
+hr{
+    background-color:white;
+    width:400px;
+}
+#result{
+    height:20px;
+    width:fit-content;
+    background-color:red;
+    color:white;
+}
+#wait{
+    height:20px;
+    background-color: white;
+    width:fit-content;
+}
+#ise{
+    height:200px;
+    width:60px;
+    border-radius:25px;
+}
+.pr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-top: 20px;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pp{
+    display: flex;
+    margin-top: 30px;
+}
+.first{
+    margin-left: 10px;
+}
+.second{
+    margin-right: 10px;
+}

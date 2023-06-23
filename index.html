@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="http://icons.iconarchive.com/icons/dtafalonso/android-l/512/Calculator-icon.png" type="image/x-icon">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="calci">
+    <span class="sty">
+       <input type="number" placeholder="Enter the first number" id="num1" >
+    </span>
+    <hr>
+    <span class="pr">
+    <div id="result">result</div>
+    <div id="wait">wait</div>
+    <div id="re"><input type="submit" value="reload" id="reload" onclick="window.location.reload()"></div></span>
+<span class="pp">
+  <div class="first">
+  <div><input type="submit" value ="add" id="add"></div>
+  <div><input type="submit" value ="sub" id="sub" ></div>
+  <div><input type="submit" value ="mul" id="mul"></div>
+  <div><input type="submit" value ="div" id="div" ></div>
+  </div>
+    <div class="second"><input type="submit" value="=" id="ise" onclick="eq()"></div>  
+</span>
+</div>
+<!-- <div class="r">
+  <input type="submit">
+</div> -->
+  <script src="design.js"></script> 
+  </body>
+</body>
+</html>
